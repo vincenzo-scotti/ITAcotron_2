@@ -86,7 +86,7 @@ class develop(setuptools.command.develop.develop):
         setuptools.command.develop.develop.run(self)
 
 
-# The documentation for this feature is in server/README.md
+# The documentation for this feature is in server/ORIGINAL_README.md
 package_data = ['TTS/server/templates/*']
 
 if 'bdist_wheel' in unknown_args and args.checkpoint and args.model_config:
