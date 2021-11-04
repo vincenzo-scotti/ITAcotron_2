@@ -22,8 +22,8 @@ The code in this repository is based on a fork of the [Mozilla TTS repository](h
 Please refer to the source for the documentation.
 
 With respect to the original implementation, we modified the following files:
-- `path/to/file`
-- `path/to/file`
+- `TTS/tts/datasets/preprocess.py`
+- `TTS/tts/datasets/TTSDataset.py`
 - `path/to/file`
 - `path/to/file`
 - `path/to/file`
