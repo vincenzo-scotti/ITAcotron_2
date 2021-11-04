@@ -24,9 +24,9 @@ Please refer to the source for the documentation.
 With respect to the original implementation, we modified the following files:
 - `TTS/tts/datasets/preprocess.py`
 - `TTS/tts/datasets/TTSDataset.py`
-- `path/to/file`
-- `path/to/file`
-- `path/to/file`
+- `TTS/tts/utils/text/__init__.py`
+- `TTS/tts/utils/text/cleaners.py`
+- `TTS/tts/utils/text/symbols.py`
 
 The code was taken from [this commit](https://github.com/mozilla/TTS/tree/2136433).
 

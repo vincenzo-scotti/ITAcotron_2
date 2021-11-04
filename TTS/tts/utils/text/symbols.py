@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+# coding: utf-8
+
 # -*- coding: utf-8 -*-
 '''
 Defines the set of symbols used in text input to the model.
@@ -9,11 +12,8 @@ def make_symbols(characters, phonemes, punctuations='!\'(),-.:;? ', pad='_', eos
     ''' Function to create symbols and phonemes '''
     _phonemes_sorted = sorted(list(phonemes))
 
-    # Prepend "@" to ARPAbet symbols to ensure uniqueness (some are the same as uppercase letters):
-    _arpabet = ['@' + s for s in _phonemes_sorted]
-
     # Export all symbols:
-    _symbols = [pad, eos, bos] + list(characters) + _arpabet
+    _symbols = [pad, eos, bos] + list(characters)
     _phonemes = [pad, eos, bos] + list(_phonemes_sorted) + list(punctuations)
 
     return _symbols, _phonemes
@@ -21,7 +21,7 @@ def make_symbols(characters, phonemes, punctuations='!\'(),-.:;? ', pad='_', eos
 _pad = '_'
 _eos = '~'
 _bos = '^'
-_characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz!\'(),-.:;? '
+_characters = 'abcdefghijklmnopqrstuvwxyzàáèéìíóòùú!\'(),-.:;? '
 _punctuations = '!\'(),-.:;? '
 _phoneme_punctuations = '.!;:,?'
 
@@ -45,3 +45,4 @@ if __name__ == '__main__':
     print(symbols)
     print(" > TTS phonemes {}".format(len(phonemes)))
     print(phonemes)
+
