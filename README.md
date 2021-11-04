@@ -31,6 +31,12 @@ With respect to the original implementation, we modified the following files:
 
 The code was taken from [this commit](https://github.com/mozilla/TTS/tree/2136433).
 
+## Added configurations 
+
+Configuration files added for the training of Italian TTS: 
+- `TTS/tts/configs/config_first_finetuning.json`
+- `TTS/tts/configs/config_second_finetuning.json`
+
 ## Cite work
 
 If you are willing to use our code, please cite our work through the following BibTeX entry:
