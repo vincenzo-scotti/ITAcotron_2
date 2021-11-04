@@ -27,6 +27,7 @@ With respect to the original implementation, we modified the following files:
 - `TTS/tts/utils/text/__init__.py`
 - `TTS/tts/utils/text/cleaners.py`
 - `TTS/tts/utils/text/symbols.py`
+- `TTS/bin/train_tacotron.py`
 
 The code was taken from [this commit](https://github.com/mozilla/TTS/tree/2136433).
 

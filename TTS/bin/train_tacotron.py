@@ -1,10 +1,14 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+import sys
+sys.path.append(r"/home/arcslab/Documents/Anna_Favaro/TTS")
+sys.path.append(r"/home/arcslab/Documents/Anna_Favaro/TTS/TTS")
+
 import argparse
 import glob
 import os
-import sys
+
 import time
 import traceback
 from random import randrange
@@ -20,7 +24,7 @@ from TTS.tts.utils.io import save_best_model, save_checkpoint
 from TTS.tts.utils.measures import alignment_diagonal_score
 from TTS.tts.utils.speakers import load_speaker_mapping, parse_speakers
 from TTS.tts.utils.synthesis import synthesis
-from TTS.tts.utils.text.symbols import make_symbols, phonemes, symbols
+from TTS.tts.utils.text.symbols import make_symbols
 from TTS.tts.utils.visual import plot_alignment, plot_spectrogram
 from TTS.utils.audio import AudioProcessor
 from TTS.utils.console_logger import ConsoleLogger
@@ -417,11 +421,10 @@ def evaluate(model, criterion, ap, global_step, epoch, speaker_mapping=None):
     if args.rank == 0 and epoch > c.test_delay_epochs:
         if c.test_sentences_file is None:
             test_sentences = [
-                "It took me quite a long time to develop a voice, and now that I have it I'm not going to be silent.",
-                "Be a voice, not an echo.",
-                "I'm sorry Dave. I'm afraid I can't do that.",
-                "This cake is great. It's so delicious and moist.",
-                "Prior to November 22, 1963."
+                "Finalmente ho sviluppato una voce tutta mia.",
+                "Oggi è proprio una bella giornata nonostante la pioggia.",
+                "Questa torta è deliziosa perchè è dolce."
+
             ]
         else:
             with open(c.test_sentences_file, "r") as f:
