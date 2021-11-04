@@ -7,7 +7,9 @@ This code was originally developed as part of the M.Sc. Thesis in Cognitive Scie
 The M.Sc. degree was released by the Center for Mind/Brain Sciences ([CIMeC](https://www.cimec.unitn.it)) of the Università degli Studi di Trento ([UniTn](https://www.unitn.it)).
 The Thesis was supervised at Politecnico di Milano ([PoliMI](https://www.polimi.it)) by the staff of the [ARCSlab](https://arcslab.dei.polimi.it).
 
-## Usage
+## Usage 
+
+To generate Italian clips, you can use the notebook at the following path: `notebooks/ITAcotron-2_synthesis.ipynb`
 
 ## Model weights
 
