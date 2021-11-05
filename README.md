@@ -14,9 +14,9 @@ To generate Italian clips, you can use the notebook at the following path: `note
 ## Model weights
 
 Link to download the weights of the trained models:
-- Tacotron 2 [[link]()] (trained on Italian data)
-- FB-MelGAN Vocoder [[link]()] (taken from the original repo, trained on English data)
-- Speaker Encoder [[link]()] (taken from the original repo, trained on English data)
+- Tacotron 2 [ [link](https://polimi365-my.sharepoint.com/:u:/g/personal/10451445_polimi_it/EaVCldj6tN5FqrUxdIT3wx8BE4wM5m6juQotK6qAc5pDxw?e=O2hMpn) ] (trained on Italian data)
+- FB-MelGAN Vocoder [ [link](https://polimi365-my.sharepoint.com/:u:/g/personal/10451445_polimi_it/EVPp9Olk8Y5PkxyN1URudC4Bxp8K6v6Ct1_05uk54z0NfA?e=NLKLdd) ] and vocoder configuration file [ [link](https://polimi365-my.sharepoint.com/:u:/g/personal/10451445_polimi_it/EWcY4y3ZZYVDnWifqmjjbooBv4gMNSwRulG0rgwTIuq6Zw?e=rCoEXC) ] (taken from the original repo, trained on English data)
+- Speaker Encoder [ [link](https://polimi365-my.sharepoint.com/:u:/g/personal/10451445_polimi_it/EcXCpALD4_FIiAYBu-MugoIBj2oIBhkBjT0jM5kD6XlBCg?e=ziwVIl) ] and speaker encoder configuration file [ [link](https://polimi365-my.sharepoint.com/:u:/g/personal/10451445_polimi_it/ESdU__SvK-RMpC8C72lLwswBPS9udG3zW4j__bifBs1rcw?e=Id23Rd) ] (taken from the original repo, trained on English data)
 
 ## Changes from origin
 
