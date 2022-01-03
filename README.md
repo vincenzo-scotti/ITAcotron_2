@@ -44,18 +44,15 @@ Configuration files added for the training of Italian TTS:
 If you are willing to use our code, please cite our work through the following BibTeX entry:
 ```latex
 @inproceedings{favaro-etal-2021-itacotron,
-    title = "{ITA}cotron 2: Transfering {E}nglish Speech Synthesis Architectures and Speech Features to {I}talian",
-    author = "Favaro, Anna  and
-      Sbattella, Licia  and
-      Tedesco, Roberto  and
-      Scotti, Vincenzo",
-    booktitle = "Proceedings of The Fourth International Conference on Natural Language and Speech Processing (ICNLSP 2021)",
-    month = "12--13 " # nov,
-    year = "2021",
-    address = "Trento, Italy",
-    publisher = "Association for Computational Linguistics",
-    url = "https://aclanthology.org/2021.icnlsp-1.10",
-    pages = "83--88",
+	Address = {Trento, Italy},
+	Author = {Favaro, Anna and Sbattella, Licia and Tedesco, Roberto and Scotti, Vincenzo},
+	Booktitle = {Proceedings of The Fourth International Conference on Natural Language and Speech Processing (ICNLSP 2021)},
+	Month = {12--13 } # nov,
+	Pages = {83--88},
+	Publisher = {Association for Computational Linguistics},
+	Title = {{ITA}cotron 2: Transfering {E}nglish Speech Synthesis Architectures and Speech Features to {I}talian},
+	Url = {https://aclanthology.org/2021.icnlsp-1.10},
+	Year = {2021}
 }
 ``` 
 
