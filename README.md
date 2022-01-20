@@ -3,13 +3,14 @@
 Codebase for the paper "[ITAcotron 2: Transfering English Speech Synthesis Architectures and Speech Features to Italian](https://aclanthology.org/2021.icnlsp-1.10/)".
 For all the references, contributions and credits, please refer to the paper.
 
-This code was originally developed as part of the M.Sc. Thesis in Cognitive Science "[Conditional Text to Speech by Means of Transfer Learning]()".
+This code was originally developed as part of the M.Sc. Thesis in Cognitive Science "[Conditional Text to Speech by Means of Transfer Learning](http://www5.unitn.it/Biblioteca/it/Web/RichiestaConsultazioneTesi/369577)".
 The M.Sc. degree was released by the Center for Mind/Brain Sciences ([CIMeC](https://www.cimec.unitn.it)) of the Università degli Studi di Trento ([UniTn](https://www.unitn.it)).
 The Thesis was supervised at Politecnico di Milano ([PoliMI](https://www.polimi.it)) by the staff of the [ARCSlab](https://arcslab.dei.polimi.it).
 
 ## Usage 
 
-To generate Italian clips, you can use the notebook at the following path: `notebooks/ITAcotron-2_synthesis.ipynb`
+To generate Italian clips, you can use the notebook at the following path:\
+`notebooks/ITAcotron-2_synthesis.ipynb`
 
 ## Model weights
 
