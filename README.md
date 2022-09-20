@@ -1,7 +1,7 @@
 # ITAcotron 2
 
 Codebase for the papers "[ITAcotron 2: the Power of Transfer Learning in Expressive TTS Synthesis](https://doi.org/10.1007/978-3-031-11035-1_1)" and "[ITAcotron 2: Transfering English Speech Synthesis Architectures and Speech Features to Italian](https://aclanthology.org/2021.icnlsp-1.10/)".
-For all the references, contributions and credits, please refer to the paper.
+For all the references, contributions and credits, please refer to the papers.
 
 This code was originally developed as part of the M.Sc. Thesis in Cognitive Science "[Conditional Text to Speech by Means of Transfer Learning](http://www5.unitn.it/Biblioteca/it/Web/RichiestaConsultazioneTesi/369577)".
 The M.Sc. degree was released by the Center for Mind/Brain Sciences ([CIMeC](https://www.cimec.unitn.it)) of the Università degli Studi di Trento ([UniTn](https://www.unitn.it)).
@@ -45,17 +45,17 @@ Configuration files added for the training of Italian TTS:
 If you are willing to use our code, please cite our work through the following BibTeX entries:
 ```latex
 @inbook{favaro-etal-2022-itacotron,
-	author={Favaro, Anna  and Sbattella, Licia  and Tedesco, Roberto  and Scotti, Vincenzo},
-	editor={Abbas, Mourad},
-	title={ITAcotron 2: the Power of Transfer Learning in Expressive TTS Synthesis},
-	bookTitle={Analysis and Application of Natural Language and Speech Processing},
-	year={2022},
-	publisher={Springer International Publishing},
-	address={Cham},
-	pages={1--20},
-	isbn={978-3-031-11034-4},
-	doi={10.1007/978-3-031-11035-1\_1},
-	url={https://doi.org/10.1007/978-3-031-11035-1\_1}
+	Author={Favaro, Anna  and Sbattella, Licia  and Tedesco, Roberto  and Scotti, Vincenzo},
+	Editor={Abbas, Mourad},
+	Title={ITAcotron 2: the Power of Transfer Learning in Expressive TTS Synthesis},
+	BookTitle={Analysis and Application of Natural Language and Speech Processing},
+	Year={2022},
+	Publisher={Springer International Publishing},
+	Address={Cham},
+	Pages={1--20},
+	Isbn={978-3-031-11034-4},
+	Doi={10.1007/978-3-031-11035-1\_1},
+	Url={https://doi.org/10.1007/978-3-031-11035-1\_1}
 }
 
 @inproceedings{favaro-etal-2021-itacotron,
